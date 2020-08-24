@@ -54,7 +54,7 @@ body {
   color: #951C49;
   text-align: center;
 }
-#nav-list a:hover {
+#nav-list a.hover {
   background: #E7E7E7;
 }
 #nav-list a span {
@@ -104,7 +104,7 @@ body {
   overflow: hidden;
 }
 
-#menu-tile.hover, #special-tile.hover, #map-tile.hover,  #eleven-tile.hover, #twelth-tile.hover, #tenth-tile.hover, #nine-tile.hover, #five-tile.hover {
+#menu-tile.hover, #special-tile.hover, #map-tile.hover, #hostel-tile.hover, #eleven-tile.hover, #twelth-tile.hover, #tenth-tile.hover, #nine-tile.hover, #five-tile.hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 
 }
@@ -123,6 +123,8 @@ body {
   background: url('hostel.jpg') no-repeat;
   background-position: center; 
 }
+
+
 
 #eleven-tile{
   background: url('12th2.jpeg') no-repeat;
@@ -307,7 +309,7 @@ body {
 }
 
 @media (max-width: 479px){
-  #menu-tile, #special-tile{
+  #menu-tile, #special-tile, #hostel-tile, #map-tile{
     width: 280px;
     margin: 0 auto 15px;
   }
@@ -321,4 +323,14 @@ body {
     width: 100%;
      float: left;
   }
+
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw; 
+}
+
 }
