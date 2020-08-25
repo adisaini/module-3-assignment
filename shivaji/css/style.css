@@ -345,7 +345,7 @@ body {
 
 @media (max-width: 479px){
   #menu-tile, #special-tile, #hostel-tile, #map-tile{
-    width: 280px;
+    width: 90%;
     margin: 0 auto 15px;
   }
 
