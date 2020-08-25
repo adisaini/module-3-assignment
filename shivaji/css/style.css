@@ -94,7 +94,7 @@ body {
   border: 2px solid #3F0C1F;
 }
 
-#menu-tile, #special-tile, #map-tile, #hostel-tile, #eleven-tile, #twelth-tile, #tenth-tile, #nine-tile, #five-tile{
+#menu-tile, #special-tile, #map-tile, #hostel-tile, #eleven-tile, #twelth-tile, #tenth-tile, #nine-tile, #five-tile, #math-tile, #bio-tile, #arts-tile, #agri-tile, #commerce-tile{
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
@@ -103,7 +103,7 @@ body {
   overflow: hidden;
 }
 
-#menu-tile.hover, #special-tile.hover, #map-tile.hover, #hostel-tile.hover, #eleven-tile.hover, #twelth-tile.hover, #tenth-tile.hover, #nine-tile.hover, #five-tile.hover {
+#menu-tile.hover, #special-tile.hover, #map-tile.hover, #hostel-tile.hover, #eleven-tile.hover, #twelth-tile.hover, #tenth-tile.hover, #nine-tile.hover, #five-tile.hover, #math-tile.hover, #bio-tile.hover, #arts-tile.hover, #agri-tile.hover, #commerce-tile.hover{
   box-shadow: 0 1px 5px 1px #cccccc;
 
 }
@@ -160,6 +160,42 @@ body {
   width: 300px;
   height: 300px;
   }
+
+#math-tile{
+  background: url('math.jpg') no-repeat;
+  background-position: center; 
+  width: 300px;
+  height: 300px;
+}
+
+#bio-tile{
+  background: url('biology.jpg') no-repeat;
+  background-position: center; 
+  width: 300px;
+  height: 300px;
+}
+
+#arts-tile{
+  background: url('arts.jpg') no-repeat;
+  background-position: center; 
+  width: 300px;
+  height: 300px;
+}
+
+#agri-tile{
+  background: url('agri.jpg') no-repeat;
+  background-position: center; 
+  width: 300px;
+  height: 300px;
+}
+
+#commerce-tile{
+  background: url('commerce.png') no-repeat;
+  background-position: center; 
+  width: 300px;
+  height: 300px;
+}
+
 
 #menu-tile span , #special-tile span , #map-tile span , #hostel-tile span{
   position: absolute;
